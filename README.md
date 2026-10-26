@@ -73,7 +73,7 @@ For the first installation, use these settings:
 | Parameter | Recommended Value |
 |:--|:--|
 | Panel | `invert` |
-| Display | `80 MHz` |
+| Display | `40 MHz` |
 | Install | `factory` |
 | Firmware | `SmartGauge-Mazda2Skyactiv.bin` |
 
