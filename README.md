@@ -44,7 +44,7 @@ Select the correct COM Port and configure the following settings:
 |:--|:--|
 | COM Port | Select the correct port |
 | Panel | `invert` |
-| Display | `80 MHz` |
+| Display | `40 MHz` |
 | Install (First Installation) | `factory` |
 | Install (Firmware Update) | `update` |
 
