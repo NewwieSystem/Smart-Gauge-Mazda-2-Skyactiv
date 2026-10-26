@@ -22,7 +22,7 @@ Download the Windows flashing utility created by Birdlab.
 Firmware for the SmartGauge Mazda2 Skyactiv project.
 
 - **File:** `SmartGauge-Mazda2Skyactiv.bin`
-- **Device:** ESP32-CYD
+- **Device:** ESP32-2432S028
 
 ---
 
