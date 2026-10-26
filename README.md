@@ -37,27 +37,4 @@ Panel: invert
 Display: 80 MHz
 Install: factory
 
-✅ Firmware update
 
-Panel: invert
-Display: 80 MHz
-Install: update
-Troubleshooting
-
-Device not detected
-
-Press Refresh.
-Check USB cable.
-Install CH340 driver.
-
-Display colors incorrect
-
-Go to:
-SETUP → COLORS
-
-Select the correct color profile.
-
-Display glitches or tearing
-
-Change Display from:
-80 MHz → 40 MHz
