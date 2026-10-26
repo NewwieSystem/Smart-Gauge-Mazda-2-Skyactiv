@@ -95,7 +95,7 @@ For the first installation, use these settings:
 **REDLINE Flasher** created by [Birdlab](https://github.com/moomdate).
 
 Developed for flashing SmartGauge Mazda2 Skyactiv firmware
-to ESP32-CYD devices.
+to ESP32-2432S028 devices.
 
 ---
 
