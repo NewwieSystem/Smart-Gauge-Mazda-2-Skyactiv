@@ -1,86 +1,105 @@
-🚗 REDLINE Flasher — SmartGauge Mazda2 Skyactiv
+# 🚗 REDLINE Flasher — SmartGauge Mazda2 Skyactiv
 
-ESP32-CYD Firmware Flashing Tool
+<p align="center">
+  <b>ESP32-CYD Firmware Flashing Tool</b><br>
+  A simple tool to flash SmartGauge Mazda2 Skyactiv firmware.
+</p>
 
-A simple and easy-to-use firmware flashing tool for the ESP32-CYD device, designed for the SmartGauge Mazda2 Skyactiv project.
+---
 
-📥 Downloads
-🖥️ REDLINE Flasher
+## 📥 Downloads
+
+### 🖥️ REDLINE Flasher
 
 Download the Windows flashing utility created by Birdlab.
 
-File: REDLINE-Flasher-windows.exe
-Author: Birdlab
-Platform: Windows
-⚙️ SmartGauge Firmware
+- **File:** `REDLINE-Flasher-windows.exe`
+- **Author:** [Birdlab](https://github.com/moomdate)
+- **Platform:** Windows
 
-Download the firmware for SmartGauge Mazda2 Skyactiv.
+### ⚙️ SmartGauge Firmware
 
-File: SmartGauge-Mazda2Skyactiv.bin
-Device: ESP32-CYD
-Purpose: SmartGauge Mazda2 Skyactiv firmware
-🔧 Flashing Instructions
+Firmware for the SmartGauge Mazda2 Skyactiv project.
 
-Follow these steps to install or update the firmware on your ESP32-CYD.
+- **File:** `SmartGauge-Mazda2Skyactiv.bin`
+- **Device:** ESP32-CYD
 
-1. Connect Your Device
+---
 
-Connect the ESP32-CYD to your PC using a USB cable that supports data transfer.
+## 🔧 Flashing Instructions
 
-2. Launch REDLINE Flasher
+### 1. Connect Your Device
+Connect the ESP32-CYD to your PC using a USB data cable.
 
+### 2. Launch REDLINE Flasher
 Run the application:
 
-REDLINE-Flasher-windows.exe
+`REDLINE-Flasher-windows.exe`
 
-3. Configure Flashing Settings
+### 3. Configure Settings
 
-Select the following settings in REDLINE Flasher:
+Select the correct COM Port and configure the following settings:
 
-Setting	Value
-COM Port	Select the correct port
-Panel	invert
-Display	80 MHz
-Install	factory for first installation
-Install	update for firmware updates
-4. Select Firmware
+| Setting | Value |
+|:--|:--|
+| COM Port | Select the correct port |
+| Panel | `invert` |
+| Display | `80 MHz` |
+| Install (First Installation) | `factory` |
+| Install (Firmware Update) | `update` |
 
-Click Browse and select the firmware file:
+### 4. Select Firmware
 
-SmartGauge-Mazda2Skyactiv.bin
+Click **Browse** and select:
 
-5. Flash Firmware
+`SmartGauge-Mazda2Skyactiv.bin`
 
-Click Flash to start the flashing process.
+### 5. Flash Firmware
 
-Wait until the operation is complete. Do not disconnect the USB cable while flashing.
+Click **Flash** to start the flashing process.
 
-6. Restart
+Wait for the process to complete. Do not disconnect the USB cable while flashing.
 
-Once flashing is complete, the ESP32-CYD will restart automatically and load the new firmware.
+### 6. Restart
 
-✅ Recommended Settings
+Once flashing is complete, the device will restart automatically.
 
-For the first installation, use the following configuration:
+---
 
-Parameter	Recommended Value
-Panel	invert
-Display	80 MHz
-Install	factory
-Firmware	SmartGauge-Mazda2Skyactiv.bin
-Note: When updating an existing installation, select update instead of factory.
-⚠️ Important Notes
-Ensure the correct COM Port is selected before flashing.
-Use a reliable USB data cable.
-Do not disconnect the device during the flashing process.
-Make sure the firmware file matches your intended device and project.
-👨‍💻 Credits
+## ✅ Recommended Settings
 
-REDLINE Flasher created by Birdlab.
+For the first installation, use these settings:
 
-Developed for flashing the SmartGauge Mazda2 Skyactiv firmware to ESP32-CYD devices.
+| Parameter | Recommended Value |
+|:--|:--|
+| Panel | `invert` |
+| Display | `80 MHz` |
+| Install | `factory` |
+| Firmware | `SmartGauge-Mazda2Skyactiv.bin` |
+
+> **Note:** Select `update` when updating an existing firmware installation.
+
+---
+
+## ⚠️ Important Notes
+
+- Ensure the correct COM Port is selected.
+- Use a USB cable that supports data transfer.
+- Do not disconnect the device during flashing.
+- Make sure you select the correct firmware file.
+
+---
+
+## 👨‍💻 Credits
+
+**REDLINE Flasher** created by [Birdlab](https://github.com/moomdate).
+
+Developed for flashing SmartGauge Mazda2 Skyactiv firmware
+to ESP32-CYD devices.
+
+---
 
 <p align="center">
-<b>REDLINE Flasher</b><br>
-<i>SmartGauge Mazda2 Skyactiv · ESP32-CYD</i>
+  <b>REDLINE Flasher</b><br>
+  <i>SmartGauge Mazda2 Skyactiv · ESP32-CYD</i>
 </p>
